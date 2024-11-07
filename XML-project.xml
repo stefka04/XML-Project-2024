@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universityCatalog>
+	<university>
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<region> </region>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
+					<region> </region>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+		
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+	</university>
+</universityCatalog>
