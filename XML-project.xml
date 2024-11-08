@@ -29,7 +29,25 @@
 		</contacts>
 		</affiliate>
 		<faculty>
-		
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
 		</faculty>
 		
 		<administration>
@@ -38,5 +56,26 @@
 			<management> </management> 
 		</administration> 
 		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
 	</university>
 </universityCatalog>
