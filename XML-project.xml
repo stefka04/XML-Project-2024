@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <universityCatalog>
-	<university>
+
+	<region id="София">Област София</region>
+	<region id="Благоевград">Област Благоевград</region>
+	<region id="Пловдив">Област Пловдив</region>
+	<region id="Варна">Област Варна</region>
+	
+	<university region="София">
 		<title> </title>
 		<contacts>
 			<telephone> </telephone>
 			<email> </email>
 			<address>
-				<region> </region>
 				<city> </city>
 				<street> </street>
 			</address>
-			<website> </website>
+			<website href="https://www.uni-sofia.bg/"> </website>
 		</contacts>
 		<funding> </funding>
 		<scholarships>
@@ -21,7 +26,541 @@
 				<telephone> </telephone>
 				<email> </email>
 				<address>
-					<region> </region>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
+	</university>
+	<university region="София">
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website href="https://mu-sofia.bg/"> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
+	</university>
+	
+	<university region="Благоевград">
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website href="https://www.swu.bg/bg/"> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
+	</university>
+	<university region="Благоевград">
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website href="https://www.swu.bg/bg/"> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
+	</university>
+	<university region="Пловдив">
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website href="https://uni-plovdiv.bg/"> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
+	</university>
+	
+	<university region="Пловдив">
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website href="https://uni-plovdiv.bg/"> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
+	</university>
+	
+	<university region="Варна">
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website href="https://www.naval-acad.bg/"> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
+					<city> </city>
+					<street> </street>
+				</address>
+				<website> </website>
+		</contacts>
+		</affiliate>
+		<faculty>
+                        <title> </title>
+                        <contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<street> </street>
+			</address>
+			<website> </website>
+		        </contacts>
+                        
+                        <governance>
+                                   <dean> </dean>
+                                   <vice_dean> </vice_dean>
+                        </governance>
+		        <administration>
+                                       <scientific_department> </scientific_department>
+                                       <students_department> </students_department>
+                        </administration>
+                        <disciplines> </disciplines>
+		</faculty>
+		
+		<administration>
+			<scientific_department> </scientific_department>
+			<secretariat> </secretariat>
+			<management> </management> 
+		</administration> 
+		<gallery> </gallery>
+
+                <governance>
+                        <rector></rector>  
+                </governance>
+                <institutions></institutions>
+                <degree></degree>
+                <departments>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <address>
+                                         <street> </street>
+                                 </address>
+                                 <website> </website>
+                        </contacts>
+                </departments>
+                <dormitory>
+                        <contacts>
+                                 <telephone></telephone>
+                                 <website> </website>
+                        </contacts>
+                </dormitory>
+	</university>	
+	<university region="Варна">
+		<title> </title>
+		<contacts>
+			<telephone> </telephone>
+			<email> </email>
+			<address>
+				<city> </city>
+				<street> </street>
+			</address>
+			<website href="https://www.naval-acad.bg/"> </website>
+		</contacts>
+		<funding> </funding>
+		<scholarships>
+			<website> </website>
+		</scholarships>
+		<affiliate>
+			<contacts>
+				<telephone> </telephone>
+				<email> </email>
+				<address>
 					<city> </city>
 					<street> </street>
 				</address>
