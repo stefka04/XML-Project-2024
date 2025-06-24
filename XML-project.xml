@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogUniversitiesDisplay.xsl"?>
+<!DOCTYPE universityCatalog SYSTEM "XML-project-dtd.dtd" [
+	<!ENTITY sofiaUniversity "Софийски университет 'Св. Климент Охридски'">
+	<!ENTITY medicalUniversity "Медицински университет-София">
+	<!ENTITY plovdivUniversity "Пловдивски университет 'Паисий Хилендарски'">
+	<!ENTITY uniOfFoodTech "Университет по хранителни технологии- Пловдив">
+	<!ENTITY americanUniversity "Американски университет">
+	<!ENTITY southwestUniversity "Югозападен университет 'Неофит Рилски'">
+	<!ENTITY varnaEconomicUniversity "Икономически университет- Варна">
+	<!ENTITY varnaNavalUniversity "Висше военноморско училище 'Н. Й. Вапцаров'">
+]>
+<universityCatalog>
+	<region id="Sofia">Област София</region>
+	<region id="Blagoevgrad">Област Благоевград</region>
+	<region id="Plovdiv">Област Пловдив</region>
+	<region id="Varna">Област Варна</region>
+	<university region="Sofia">
+		<title>&sofiaUniversity;</title>
+		<contacts>
+			<telephone>02 930 8200</telephone>
+			<email>https://email.uni-sofia.bg/</email>
+			<website href="https://www.uni-sofia.bg/">https://www.uni-sofia.bg/</website>
+		</contacts>
+		<address>
+			<city>град: София 1504, София център</city>
+			<street>бул. "Цар Освободител" 15</street>
+		</address>
+		<funding>държавно</funding>
+		<scholarships>
+			<website href="https://www.uni-sofia.bg/index.php/bul/studenti/administrativno_obsluzhvane/stipendii">https://www.uni-sofia.bg/index.php/bul/studenti/administrativno_obsluzhvane/stipendii</website>
+		</scholarships>
+		<affiliate>
+			<title>Филиал Бургас</title>
+			<contacts>
+				<telephone>0885985544</telephone>
+				<email>info@burgas.uni-sofia.bg</email>
+				<website href="https://bs.uni-sofia.bg/">https://bs.uni-sofia.bg/</website>
+			</contacts>
+			<address>
+				<city>град Бургас</city>
+				<street>пл. "Тройката" №1, НХК, Бургас 8000</street>
+			</address>
+		</affiliate>
+		<faculty>
+			<title>Исторически факултет</title>
+			<contacts>
+				<telephone>9876 292</telephone>
+				<email>kbobeva@clio.uni-sofia.bg</email>
+				<website href="www.clio.uni-sofia.bg">www.clio.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>София 1504, бул. Цар Освободител 15</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Мира Маркова</dean>
+				<vice_dean>Проф. д-р Ивайла Попова</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Нина Христова-тел.02/ 9308 523; имейл: ninanh@uni-sofia.bg</scientific_department>
+				<students_department>Инспектор Камелия Янакиева- тел.02/ 9308 523; имейл: kamiy@abv.bg</students_department>
+			</administration>
+			<image src="historical_faculty.jpg"/>
+			<disciplines>Основните дисциплини, изучавани във Факултета, са: история на България, археология, стара история, тракология и средновековна история; история на Византия и балканските народи; етнология, нова и съвременна история; архивистика и методика на обучението по история.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по славянски филологии</title>
+			<contacts>
+				<telephone>02 9871 068</telephone>
+				<email>slavph@uni-sofia.bg</email>
+				<website href="https://slav.uni-sofia.bg">https://slav.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Цар Освободител 15</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Ана Стойкова - кабинет: 210, тел. 02 9308 390; astoykova@slav.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Георги Гочев - кабинет: 211, тел. 02 9308 391; ggotchev@slav.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Елена Костова; тел. 02 9308 392; ekostova@slav.uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 212
+тел. 02 9308 393</students_department>
+			</administration>
+			<image src="slavic_philology_faculty.jpg"/>
+			<disciplines>Основни програми: "Славянска филология", "Българска филология", "Чешки език", "Полски език" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по класически и нови филологии</title>
+			<contacts>
+				<telephone>9308 381</telephone>
+				<website href="https://fcml.uni-sofia.bg/">https://fcml.uni-sofia.bg/</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>София 1504, бул. Цар Освободител 15</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Гергана Петкова- dekanat@fcml.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Галина Евстатиева- имейл: g.evstatieva@uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Мариана Дикова-
+тел. 9308 381; mldikova@uni-sofia.bg</scientific_department>
+				<students_department>Гергана Зашева- gzasheva@uni-sofia.bg</students_department>
+			</administration>
+			<image src="philology_faculty.jpg"/>
+			<disciplines>Основните дисциплини, изучавани във Факултета, са: класическа филология, новогръцка/унгарска/френска/италианска/румънска/немска/английска/испанска/португалска филология, скандинавистика, ЕС и европейска интеграция и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Юридически факултет</title>
+			<contacts>
+				<telephone>9308 577</telephone>
+				<email>dvalchev@uni-sofia.bg</email>
+				<website href="https://law.uni-sofia.bg/">https://law.uni-sofia.bg/</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>София 1504, бул. Цар Освободител 15</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Даниел Вълчев- кабинет 236, тел. 02 / 9308 427; dvalchev@uni-sofia.bg</dean>
+				<vice_dean>Проф. д-р Евелина Стоева- Димитрова- кабинет 236, тел: 02 / 943 48 06; estoeva@uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Мадлена Иванова- тел. 02 / 943 48 06; madlenagi@uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 238
+тел. 02/9308 521</students_department>
+			</administration>
+			<image src="sofia_university.jpg"/>
+			<disciplines>Основни програми във Факултета: магистърската програма "Право", както и бакалавърската "Международни отоншения", следвана от едноименните магистратури.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Философски факултет</title>
+			<contacts>
+				<telephone>02 9308 440</telephone>
+				<email>philosophy@uni-sofia.bg</email>
+				<website href="https://philosophy.uni-sofia.bg">https://philosophy.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Цар Освободител 15</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Димитър Денков - кабинет 306, тел. 02 9308 440; ddenkov@uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Александър Илиев - кабинет 307, тел. 02 9308 441; ailiev@uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Петя Ганчева - тел. 02 9308 442; pgantcheva@uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 308
+тел. 02 9308 443</students_department>
+			</administration>
+			<image src="law_faculty.jpg"/>
+			<disciplines>Основни програми: "Философия", "Социология", "Културология", "Политически науки" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по педагогика</title>
+			<contacts>
+				<telephone>02 9308 337</telephone>
+				<email>pedagogy@uni-sofia.bg</email>
+				<website href="https://pedagogy.uni-sofia.bg">https://pedagogy.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Цар Освободител 15</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Иван Иванов - кабинет: 120, тел. 02 9308 338; iivanov@pedagogy.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Мариана Димитрова - кабинет: 121, тел. 02 9308 339; mdimitrova@pedagogy.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Мария Симеонова; тел. 02 9308 340; msimeonova@pedagogy.uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 122
+тел. 02 9308 341</students_department>
+			</administration>
+			<image src="pedagogical_faculty.jpg"/>
+			<disciplines>Основни програми: "Начална училищна педагогика", "Предучилищна педагогика", "Социална педагогика" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по науки за образованието и изкуствата</title>
+			<contacts>
+				<telephone>02 8720 893</telephone>
+				<email>education@uni-sofia.bg</email>
+				<website href="https://education.uni-sofia.bg">https://education.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>ул. Шипченски проход 69 А</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Радослав Михайлов - кабинет: 220, тел. 02 8720 894; rmihaylov@education.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Вера Димитрова - кабинет: 221, тел. 02 8720 895; vdimova@education.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Ангелина Кръстева; тел. 02 8720 896; akrasteva@education.uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 222
+тел. 02 8720 897</students_department>
+			</administration>
+			<image src="fnoi.jpg"/>
+			<disciplines>Основни програми: "Музикално изкуство", "Изобразително изкуство", "Образователен мениджмънт" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по журналистика и масова комуникация</title>
+			<contacts>
+				<telephone>02 9308 202</telephone>
+				<email>journalism@uni-sofia.bg</email>
+				<website href="https://journalism.uni-sofia.bg">https://journalism.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>ул. Московска 49</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Мария Нейкова - кабинет: 310, тел. 02 9308 203; mneykova@journalism.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Антон Иванов - кабинет: 311, тел. 02 9308 204; aivanov@journalism.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Стоян Стойнов; тел. 02 9308 205; sstoinov@journalism.uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 312
+тел. 02 9308 206</students_department>
+			</administration>
+			<image src="fdhmk.png"/>
+			<disciplines>Основни програми: "Журналистика", "Връзки с обществеността", "Масови комуникации" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по математика и информатика</title>
+			<contacts>
+				<telephone>02 9308 560</telephone>
+				<email>dean-fmi@uni-sofia.bg</email>
+				<website href="https://fmi.uni-sofia.bg">https://fmi.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Джеймс Баучер 5</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Мая Стоянова - кабинет: ФМИ-518, тел.+359 2 8161 664; stoyanova@fmi.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Иван Минчев - ФзФ-238, тел. +359 2 8161 735; minchev@fmi.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Елена Трайкова; тел. +359 2 8161 541; etraykova@fmi.uni-sofia.bg; кабинет: ФМИ-204</scientific_department>
+				<students_department>
+Инспектор Михаела Дилова- тел. +359 2 8161 542; dilova@fmi.uni-sofia.bg; Кабинет: ФМИ-221.</students_department>
+			</administration>
+			<image src="fmi.jpg"/>
+			<disciplines>Основни програми: "Софтуерно инженерство", "Математика", "Информатика", "Компютърни науки", "Приложна математика" и др. (бакалавърски). Сред най-желаните магистърски програми са посветените на големите данни и изкуствения интелект.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по химия и фармация</title>
+			<contacts>
+				<telephone>02 9308 620</telephone>
+				<email>chemistry@uni-sofia.bg</email>
+				<website href="https://chemistry.uni-sofia.bg">https://chemistry.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Джеймс Баучер 1</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Иван Петров - кабинет 301, тел. 02 9308 620; dean-chem@uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Мария Николова - кабинет 302, тел. 02 9308 621; mnikolova@uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Георги Иванов - тел. 02 9308 622; givano@uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 303
+тел. 02 9308 623</students_department>
+			</administration>
+			<image src="fhf.jpg"/>
+			<disciplines>Основни програми: "Химия", "Фармация", "Био-химия", "Екологична химия" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Медицински факултет</title>
+			<contacts>
+				<telephone>+359 2 8687 140</telephone>
+				<email>medicine@uni-sofia.bg</email>
+				<website href="https://www.med.uni-sofia.bg">https://www.med.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>ул. Козяк 1</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Алексей Алексиев - кабинет: МедФак-305, тел.+359 2 8687 150; alexiev@med.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Иван Петров - кабинет: МедФак-307, тел.+359 2 8687 151; petrov@med.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Елена Колева; тел.+359 2 8687 152; koleva@med.uni-sofia.bg; кабинет: МедФак-201</scientific_department>
+				<students_department>Инспектор Мария Димитрова - тел.+359 2 8687 153; dimitrova@med.uni-sofia.bg; кабинет: МедФак-202</students_department>
+			</administration>
+			<image src="medical_faculty.jpg"/>
+			<disciplines>Основни програми: "Медицина", "Фармация" и "Здравни грижи". Медицинската програма включва и специализации като "Неврология", "Кардиология", "Педиатрия", "Хирургия", "Обща медицина" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Биологически факултет</title>
+			<contacts>
+				<telephone>+359 2 8167 300</telephone>
+				<email>biofaculty@uni-sofia.bg</email>
+				<website href="https://www.bio.uni-sofia.bg">https://www.bio.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Драган Цанков 8</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Стефан Георгиев - кабинет: БФ-101, тел.+359 2 8167 301; georgiev@bio.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Милена Петрова - кабинет: БФ-102, тел.+359 2 8167 302; petrova@bio.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Иванка Стоянова; тел.+359 2 8167 303; stoyanova@bio.uni-sofia.bg; кабинет: БФ-201</scientific_department>
+				<students_department>Инспектор Георги Иванов - тел.+359 2 8167 304; ivanov@bio.uni-sofia.bg; кабинет: БФ-202</students_department>
+			</administration>
+			<image src="biological_faculty.jpg"/>
+			<disciplines>Основни програми: "Биология", "Екология", "Генетика" и "Микробиология" (бакалавърски). Магистърските програми включват специализации по "Биоинформатика" и "Молекулярна биология".</disciplines>
+		</faculty>
+		<faculty>
+			<title>Физически факултет</title>
+			<contacts>
+				<telephone>+359 2 8161 447</telephone>
+				<email>physics@uni-sofia.bg</email>
+				<website href="https://www.phys.uni-sofia.bg">https://www.phys.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Джеймс Баучер 5</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Николай Петров - кабинет: ФФ-301, тел.+359 2 8161 448; petrov@phys.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Елена Попова - кабинет: ФФ-302, тел.+359 2 8161 449; popova@phys.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Анна Ковачева; тел.+359 2 8161 450; kovacheva@phys.uni-sofia.bg; кабинет: ФФ-201</scientific_department>
+				<students_department>Инспектор Борислав Димитров - тел.+359 2 8161 451; dimitrov@phys.uni-sofia.bg; кабинет: ФФ-202</students_department>
+			</administration>
+			<image src="fzf.jpeg"/>
+			<disciplines>Основни програми: "Физика", "Астрономия", "Инженерна физика" и "Медицинска физика". Магистърските програми включват "Квантова оптика", "Нанотехнологии" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Геолого-географски факултет</title>
+			<contacts>
+				<telephone>+359 2 9308 385</telephone>
+				<email>geography@uni-sofia.bg</email>
+				<website href="https://www.geo.uni-sofia.bg">https://www.geo.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Цар Освободител 15</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Иван Георгиев - кабинет: ГГФ-101, тел.+359 2 9308 386; georgiev@geo.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Мария Иванова - кабинет: ГГФ-102, тел.+359 2 9308 387; ivanova@geo.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Петър Василев; тел.+359 2 9308 388; vasilev@geo.uni-sofia.bg; кабинет: ГГФ-201</scientific_department>
+				<students_department>Инспектор Лилия Димова - тел.+359 2 9308 389; dimova@geo.uni-sofia.bg; кабинет: ГГФ-202</students_department>
+			</administration>
+			<image src="geographic_faculty.jpg"/>
+			<disciplines>Основни програми: "География", "Геология", "Климатология" и "ГИС технологии". Магистърските програми включват "Управление на природните ресурси" и "Картография и ГИС".</disciplines>
+		</faculty>
+		<faculty>
+			<title>Стопански факултет</title>
+			<contacts>
+				<telephone>02 8738 310</telephone>
+				<email>economics@uni-sofia.bg</email>
+				<website href="https://economics.uni-sofia.bg">https://economics.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>бул. Цариградско шосе 125, бл. 3</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Петър Петров - кабинет: 510, тел. 02 8738 311; ppetrov@economics.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Иван Георгиев - кабинет: 511, тел. 02 8738 312; igeorgiev@economics.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Елена Тодорова; тел. 02 8738 313; etodorova@economics.uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 512
+тел. 02 8738 314</students_department>
+			</administration>
+			<image src="economic_faculty.png"/>
+			<disciplines>Основни програми: "Икономика", "Финанси", "Бизнес администрация" и др.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Богословски факултет</title>
+			<contacts>
+				<telephone>02 9890 115</telephone>
+				<email>theology@uni-sofia.bg</email>
+				<website href="https://theology.uni-sofia.bg">https://theology.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>град София</city>
+				<street>пл. "Света Неделя" 19</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Георги Бакалов - кабинет: 410, тел. 02 9890 116; gbakalov@theology.uni-sofia.bg</dean>
+				<vice_dean>Доц. д-р Илия Илиев - кабинет: 411, тел. 02 9890 117; iiliev@theology.uni-sofia.bg</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор Маргарита Христова; тел. 02 9890 118; mhristova@theology.uni-sofia.bg</scientific_department>
+				<students_department>Кабинет: 412
+тел. 02 9890 119</students_department>
+			</administration>
+			<image src="theological_faculty.jpg"/>
+			<disciplines>Основни програми: "Богословие", "История на религиите", "Етика" и др.</disciplines>
+		</faculty>
+		<administration>
+			<scientific_department>Началник отдел "Образователни дейности":
+Албена Григорова-тел.9308 444</scientific_department>
+			<secretariat>Главен секретар: Детелина Илиева-
+тел.987 39 12</secretariat>
+			<management>Главен мениджър: Георги Божин-тел. 9308 345</management>
+		</administration>
+		<image src="sofia_university.jpg"/>
+		<universityGovernance>
+			<rector>проф. д-р Георги Вълчев</rector>
+		</universityGovernance>
+		<institutions>Институт за компютърни науки, изкуствен интелект и технологии INSAIT
+
+</institutions>
+		<degree>Издържалите държавните изпити получават образователна степен бакалавър. Впоследствие има възможност за завършване на: магистратура, докторантура; получаване на по-високи академични титли: професор, член-кореспондент.</degree>
+		<departments>
+			<title>
+Департамент за езиково обучение и продължаваща квалификация</title>
+			<contacts>
+				<telephone>тел.872 34 81(2)</telephone>
+				<website href="http://www.deo.uni-sofia.bg">http://www.deo.uni-sofia.bg</website>
+			</contacts>
+			<address>
+				<city>София</city>
+				<street>ул. Коста Лулчев 27</street>
+			</address>
+		</departments>
+		<departments>
+			<title>Департамент за информация и усъвършенстване на учители</title>
+			<contacts>
+				<telephone>02 8080 725</telephone>
+				<website href="http://www.diuu.bg">http://www.diuu.bg</website>
+			</contacts>
+			<address>
+				<city>София 1619</city>
+				<street>бул. Цар Борис ІІІ № 224</street>
+			</address>
+		</departments>
+		<departments>
+			<title>Департамент по спорт</title>
+			<contacts>
+				<telephone>944 27 49</telephone>
+				<website href="https://susport.herokuapp.com/">https://susport.herokuapp.com/</website>
+			</contacts>
+			<address>
+				<city>София 1504</city>
+				<street>бул. Цар Освободител 15</street>
+			</address>
+		</departments>
+		<dormitory>
+			<contacts>
+				<telephone>+359 2 963 42 38</telephone>
+				<website href="https://uni-campus.net/">https://uni-campus.net/</website>
+			</contacts>
+		</dormitory>
+	</university>
+	<university region="Sofia">
+		<title>&medicalUniversity;</title>
+		<contacts>
+			<telephone> (02) 9531 174</telephone>
+			<email>rector@mu-sofia.bg</email>
+			<website href="https://mu-sofia.bg/obuchenie/narychnik-pyrvokursnika/stipendia/">https://mu-sofia.bg/obuchenie/narychnik-pyrvokursnika/stipendia/</website>
+		</contacts>
+		<address>
+			<city>гр. София</city>
+			<street>бул. „Акад. Иван Гешов" № 15</street>
+		</address>
+		<funding>Държавно и частно финансиране</funding>
+		<scholarships>
+			<website href="https://mu-sofia.bg/obuchenie/narychnik-pyrvokursnika/stipendia/">https://mu-sofia.bg/obuchenie/narychnik-pyrvokursnika/stipendia/</website>
+		</scholarships>
+		<affiliate>
+			<title>Филиал „Проф. д-р Иван Митев” -Враца</title>
+			<contacts>
+				<telephone>092 6601 56</telephone>
+				<email>info@filialvratsa.mu-sofia.bg</email>
+				<website href="https://filialvratsa.mu-sofia.bg/home">https://filialvratsa.mu-sofia.bg/home</website>
+			</contacts>
+			<address>
+				<city> гр. Враца</city>
+				<street>бул. Втори юни, № 179 п.к. З000 </street>
+			</address>
+		</affiliate>
+		<faculty>
+			<title>Медицински Факултет</title>
+			<contacts>
+				<telephone>(02) 9520 522</telephone>
+				<email>sbaldjiiska@medfac.mu-sofia.bg</email>
+				<website href="https://medfac.mu-sofia.com/">https://medfac.mu-sofia.com/</website>
+			</contacts>
+			<address>
+				<city>София</city>
+				<street>ул. "Св. Георги Софийски" № 1</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Димитър Иванов Буланов</dean>
+				<vice_dean>Проф. д-р Теофил Ангелов Седлоев</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>ОТДЕЛ "АДМИНИСТРАТИВЕН": МБК, ет 2, ст. 225</scientific_department>
+				<students_department>ОТДЕЛ "БЪЛГАРСКИ СТУДЕНТИ": СБАЛАГ - Майчин дом , ет. 2 , ст. 202</students_department>
+			</administration>
+			<image src="mu-medicine.jpg"/>
+			<disciplines>Медицина - Обучението включва фундаментални и клинични дисциплини, с продължителност шест години. Завършващите придобиват професионална квалификация „лекар“.
+			Докторски програми - специализации </disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет Дентална Медицина </title>
+			<contacts>
+				<telephone>(02) 9542 909</telephone>
+				<email>info@fdm.mu-sofia.bg</email>
+				<website href="https://www.fdm.mu-sofia.bg/bg/">https://www.fdm.mu-sofia.bg/bg/</website>
+			</contacts>
+			<address>
+				<city>София</city>
+				<street>"Св. Георги Софийски" № 1</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Бойко Костов Бонев, доктор</dean>
+				<vice_dean>Доц. д-р Мирела Бориславова Маринова-Такорова, доктор</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Централа: София, бул. "Св. Георги Софийски" 1</scientific_department>
+				<students_department>Учебен отдел - обучение на български език: София, бул. "Св. Георги Софийски" 1</students_department>
+			</administration>
+			<image src="mu-dental-medicine.jpg"/>
+			<disciplines>Дентална медицина</disciplines>
+		</faculty>
+		<faculty>
+			<title>Фармацевтичен Факултет</title>
+			<contacts>
+				<telephone>(02) 9803 464</telephone>
+				<email> dean@pharmfac.mu-sofia.bg</email>
+				<website href="https://pharmfac.mu-sofia.bg/">https://pharmfac.mu-sofia.bg/</website>
+			</contacts>
+			<address>
+				<city>София</city>
+				<street>ул. Дунав №2</street>
+			</address>
+			<governance>
+				<dean>Проф. Александър Златков</dean>
+				<vice_dean>Проф. М.Димитров</vice_dean>
+				<vice_dean>Проф. И.Кръстева</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>ОТДЕЛ "АДМИНИСТРАТИВЕН": кабинет № 125</scientific_department>
+				<students_department>Учебен отдел - обучение на български език: кабинет № 211</students_department>
+			</administration>
+			<image src="mu-pharmacy.jpg"/>
+			<disciplines>Фармация; Специализации</disciplines>
+		</faculty>
+		<administration>
+			<scientific_department>Ръководител отдел: Л. Кирилова – (02) 9152 164</scientific_department>
+			<secretariat>Главен секретар: Д-р Видин Кирков-359 2 9152186</secretariat>
+			<management>Финансов контрольор: М. Димитрова-359 2 9152133</management>
+		</administration>
+		<image src="mu_sofia.jpg"/>
+		<universityGovernance>
+			<rector>Проф. д-р Бойчо Ланджов</rector>
+		</universityGovernance>
+		<degree>Издържалите Държавните изпити получават диплома за завършено висше образование
+		на образователно-квалификационна степен „Магистър” и правоспособност „Лекар” 
+		с право на обща медицинска практика.</degree>
+		<dormitory>
+			<contacts>
+				<telephone>02/862 30 82</telephone>
+				<website href="https://mu-sofia.bg/obuchenie/narychnik-pyrvokursnika/obstezhitie/">https://mu-sofia.bg/obuchenie/narychnik-pyrvokursnika/obstezhitie/</website>
+			</contacts>
+		</dormitory>
+	</university>
+	<university region="Blagoevgrad">
+		<title>&southwestUniversity;</title>
+		<contacts>
+			<telephone>+359 73 588 500</telephone>
+			<email>info@swu.bg</email>
+			<website href="https://www.swu.bg/">https://www.swu.bg/</website>
+		</contacts>
+		<address>
+			<city>гр. Благоевград</city>
+			<street>ул. „Иван Михайлов“ № 66</street>
+		</address>
+		<funding>Държавно финансиране</funding>
+		<scholarships>
+			<website href="https://www.swu.bg/student-life/scholarships.aspx">https://www.swu.bg/student-life/scholarships.aspx</website>
+		</scholarships>
+		<affiliate>
+			<title>Филиал в Кюстендил</title>
+			<contacts>
+				<telephone>+359 78 550 582</telephone>
+				<email>kyustendil@swu.bg</email>
+				<website href="https://www.swu.bg/kyustendil-branch.aspx">https://www.swu.bg/kyustendil-branch.aspx</website>
+			</contacts>
+			<address>
+				<city>гр. Кюстендил</city>
+				<street>ул. „Цар Освободител“ № 11</street>
+			</address>
+		</affiliate>
+		<faculty>
+			<title>Факултет по право и история</title>
+			<contacts>
+				<telephone>+359 73 588 551</telephone>
+				<email>law@swu.bg</email>
+				<website href="https://www.swu.bg/faculties/faculty-of-law-and-history.aspx">https://www.swu.bg/faculties/faculty-of-law-and-history.aspx</website>
+			</contacts>
+			<address>
+				<city>Благоевград</city>
+				<street>ул. „Иван Михайлов“ № 66</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Елена Владева</dean>
+				<vice_dean>Доц. д-р Мария Спасова</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Отдел "Научни изследвания": каб. 310</scientific_department>
+				<students_department>Учебен отдел: каб. 212</students_department>
+			</administration>
+			<image src="swu_law_faculty.jpg"/>
+			<disciplines>Право, История, Международни отношения</disciplines>
+		</faculty>
+		<faculty>
+			<title>Философски факултет</title>
+			<contacts>
+				<telephone>+359 73 588 552</telephone>
+				<email>philosophy@swu.bg</email>
+				<website href="https://www.swu.bg/faculties/faculty-of-philosophy.aspx">https://www.swu.bg/faculties/faculty-of-philosophy.aspx</website>
+			</contacts>
+			<address>
+				<city>Благоевград</city>
+				<street>ул. „Иван Михайлов“ № 66</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Иван Георгиев</dean>
+				<vice_dean>Доц. д-р Петър Петров</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Отдел "Научни изследвания": каб. 415</scientific_department>
+				<students_department>Учебен отдел: каб. 313</students_department>
+			</administration>
+			<image src="swu_philosophy.jpg"/>
+			<disciplines>Философия, Социология, Психология</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по икономика</title>
+			<contacts>
+				<telephone>+359 73 588 553</telephone>
+				<email>economics@swu.bg</email>
+				<website href="https://www.swu.bg/faculties/faculty-of-economics.aspx">https://www.swu.bg/faculties/faculty-of-economics.aspx</website>
+			</contacts>
+			<address>
+				<city>Благоевград</city>
+				<street>ул. „Иван Михайлов“ № 66</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Георги Иванов</dean>
+				<vice_dean>Доц. д-р Веселин Тодоров</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Отдел "Научни изследвания": каб. 517</scientific_department>
+				<students_department>Учебен отдел: каб. 415</students_department>
+			</administration>
+			<image src="swu_economy.jpg"/>
+			<disciplines>Основни дисциплини: "Икономика", "Бизнес администрация", "Финанси".</disciplines>
+		</faculty>
+		<administration>
+			<scientific_department>Ръководител отдел: Проф. Петър Иванов – +359 73 588 560</scientific_department>
+			<secretariat>Главен секретар: Д-р Мария Георгиева – +359 73 588 561</secretariat>
+			<management>Финансов контрольор: Иван Димитров – +359 73 588 562</management>
+		</administration>
+		<image src="swu.jpg"/>
+		<universityGovernance>
+			<rector>Проф. д-р Борислав Юруков</rector>
+		</universityGovernance>
+		<degree>Бакалавър, Магистър, Доктор</degree>
+		<dormitory>
+			<contacts>
+				<telephone>+359 73 588 570</telephone>
+				<website href="https://www.swu.bg/student-life/accommodation.aspx">https://www.swu.bg/student-life/accommodation.aspx</website>
+			</contacts>
+		</dormitory>
+	</university>
+	<university region="Blagoevgrad">
+		<title>&americanUniversity;</title>
+		<contacts>
+			<telephone>+359 73 888 111</telephone>
+			<email>provost@aubg.edu</email>
+			<website href="https://www.aubg.edu/home-bg/">https://www.aubg.edu/home-bg/</website>
+		</contacts>
+		<address>
+			<city>Благоевград</city>
+			<street>улица „Свобода Бъчварова“ 12</street>
+		</address>
+		<funding>Частно</funding>
+		<scholarships>
+			<website href="https://www.aubg.edu/admissions/bachelors/cost-aid/scholarships/">https://www.aubg.edu/admissions/bachelors/cost-aid/scholarships/</website>
+		</scholarships>
+		<administration>
+			<scientific_department>Намира се в ABF Student Center, Стая: 6203</scientific_department>
+			<secretariat>Намира се в основната сграда, стая: 219, (+359 73) 888 408</secretariat>
+			<management>Dr. David Evans</management>
+		</administration>
+		<image src="american_university.jpg"/>
+		<universityGovernance>
+			<rector>Dr. Margee Ensign</rector>
+		</universityGovernance>
+		<institutions>Elieff Center for Education and Culture в София</institutions>
+		<degree>Бакалавър</degree>
+		<departments>
+			<title>Business Department</title>
+			<contacts>
+				<website href="https://www.aubg.edu/business-department/">https://www.aubg.edu/business-department/</website>
+			</contacts>
+			<address>
+				<city>Благоевград</city>
+				<street>1 Georgi Izmirliev Sq</street>
+			</address>
+		</departments>
+		<departments>
+			<title>Economics Department:</title>
+			<contacts>
+				<website href="https://www.aubg.edu/economics-department/">https://www.aubg.edu/economics-department/</website>
+			</contacts>
+			<address>
+				<city>Благоевград</city>
+				<street>1 Georgi Izmirliev Sq</street>
+			</address>
+		</departments>
+		<departments>
+			<title>Computer Science Department:</title>
+			<contacts>
+				<website href="https://www.aubg.edu/computer-science-department/">https://www.aubg.edu/computer-science-department/</website>
+			</contacts>
+			<address>
+				<city>Благоевград</city>
+				<street>1 Georgi Izmirliev Sq</street>
+			</address>
+		</departments>
+		<dormitory>
+			<contacts>
+				<telephone>+359 73 888 515</telephone>
+				<website href="https://www.aubg.edu/student-life/campus/residential-life-housing/">https://www.aubg.edu/student-life/campus/residential-life-housing/</website>
+			</contacts>
+		</dormitory>
+	</university>
+	<university region="Plovdiv">
+		<title>&plovdivUniversity;</title>
+		<contacts>
+			<telephone>+359 32 261 261</telephone>
+			<email>info@uni-plovdiv.bg</email>
+			<website href="https://uni-plovdiv.bg/">https://uni-plovdiv.bg/</website>
+		</contacts>
+		<address>
+			<city>гр. Пловдив</city>
+			<street>ул. „Цар Асен“ 24</street>
+		</address>
+		<funding>Държавно финансиране</funding>
+		<scholarships>
+			<website href="https://uni-plovdiv.bg/pages/index/145/">https://uni-plovdiv.bg/pages/index/145/</website>
+		</scholarships>
+		<affiliate>
+			<title>Филиал в Смолян</title>
+			<contacts>
+				<telephone>+359 301 623 83</telephone>
+				<email>info@smolyan.uni-plovdiv.bg</email>
+				<website href="https://smolyan.uni-plovdiv.bg/">https://smolyan.uni-plovdiv.bg/</website>
+			</contacts>
+			<address>
+				<city>гр. Смолян</city>
+				<street>ул. „Стефан Стамболов“ 3</street>
+			</address>
+		</affiliate>
+		<faculty>
+			<title>Факултет по математика и информатика</title>
+			<contacts>
+				<telephone>+359 32 261 276</telephone>
+				<email>fmi@uni-plovdiv.bg</email>
+				<website href="https://uni-plovdiv.bg/pages/index/34/">https://uni-plovdiv.bg/pages/index/34/</website>
+			</contacts>
+			<address>
+				<city>Пловдив</city>
+				<street>ул. „Цар Асен“ 24</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Стоян Недков</dean>
+				<vice_dean>Доц. д-р Иван Димитров</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Отдел "Научни изследвания": каб. 217</scientific_department>
+				<students_department>Учебен отдел: каб. 113</students_department>
+			</administration>
+			<image src="pu-fmi.jpg"/>
+			<disciplines>Основни дисциплини: "Математика", "Информатика", "Информационни технологии".</disciplines>
+		</faculty>
+		<faculty>
+			<title>Филологически факултет</title>
+			<contacts>
+				<telephone>+359 32 261 277</telephone>
+				<email>philology@uni-plovdiv.bg</email>
+				<website href="https://uni-plovdiv.bg/pages/index/33/">https://uni-plovdiv.bg/pages/index/33/</website>
+			</contacts>
+			<address>
+				<city>Пловдив</city>
+				<street>ул. „Цар Асен“ 24</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Петя Кабакчиева</dean>
+				<vice_dean>Доц. д-р Георги Велев</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Отдел "Научни изследвания": каб. 319</scientific_department>
+				<students_department>Учебен отдел: каб. 214</students_department>
+			</administration>
+			<image src="pu-philology.jpg"/>
+			<disciplines>Основни дисциплини: "Български език и литература", "Чуждоезиково обучение".</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по икономически и социални науки</title>
+			<contacts>
+				<telephone>+359 32 261 278</telephone>
+				<email>economics@uni-plovdiv.bg</email>
+				<website href="https://uni-plovdiv.bg/pages/index/36/">https://uni-plovdiv.bg/pages/index/36/</website>
+			</contacts>
+			<address>
+				<city>Пловдив</city>
+				<street>ул. „Цар Асен“ 24</street>
+			</address>
+			<governance>
+				<dean>Проф. д-р Антоанета Гичева</dean>
+				<vice_dean>Доц. д-р Стефан Петров</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Отдел "Научни изследвания": каб. 415</scientific_department>
+				<students_department>Учебен отдел: каб. 316</students_department>
+			</administration>
+			<image src="pu-economy.jpg"/>
+			<disciplines>Основни дисциплини: "Икономика", "Социология", "Психология".</disciplines>
+		</faculty>
+		<administration>
+			<scientific_department>Ръководител отдел: Проф. Иван Иванов – +359 32 261 300</scientific_department>
+			<secretariat>Главен секретар: Д-р Стоян Георгиев – +359 32 261 301</secretariat>
+			<management>Финансов контрольор: Мария Димитрова – +359 32 261 302</management>
+		</administration>
+		<image src="pu.jpg"/>
+		<universityGovernance>
+			<rector>Проф. д-р Румен Младенов</rector>
+		</universityGovernance>
+		<degree>Бакалавър, Магистър, Доктор</degree>
+		<dormitory>
+			<contacts>
+				<telephone>+359 32 261 274</telephone>
+				<website href="https://uni-plovdiv.bg/pages/index/187/">https://uni-plovdiv.bg/pages/index/187/</website>
+			</contacts>
+		</dormitory>
+	</university>
+	<university region="Plovdiv">
+		<title>&uniOfFoodTech;</title>
+		<contacts>
+			<telephone>+359 32 603 893</telephone>
+			<email>student_info@uft-plovdiv.bg</email>
+			<website href="https://uft-plovdiv.bg/">https://uft-plovdiv.bg/</website>
+		</contacts>
+		<address>
+			<city>Пловдив</city>
+			<street>бул. "Марица" 26, 4002 Мараша</street>
+		</address>
+		<funding>Държавно</funding>
+		<scholarships>
+			<website href="https://du.uft-plovdiv.bg/Share/Login.aspx">https://du.uft-plovdiv.bg/Share/Login.aspx</website>
+		</scholarships>
+		<faculty>
+			<title>Технологичен факултет</title>
+			<contacts>
+				<website href="https://uft-plovdiv.bg/tehnologichen-fakultet/">https://uft-plovdiv.bg/tehnologichen-fakultet/</website>
+			</contacts>
+			<address>
+				<city>Пловдив</city>
+				<street>бул. "Марица" 26, блок І</street>
+			</address>
+			<governance>
+				<dean>проф. д.н. инж. Венелина Попова</dean>
+				<vice_dean> </vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>главен експерт – инспекторинж. Христина П. Минчева</scientific_department>
+				<students_department>Ръководител отдел: Галина П. Пантелеева</students_department>
+			</administration>
+			<image src="food_plovdiv_technology.jpg"/>
+			<disciplines>Основни дисциплини: Технология на месото и рибата;
+Технология на млякото и млечните продукти; 
+Технология на продуктите от плодове и зеленчуци;</disciplines>
+		</faculty>
+		<faculty>
+			<title>Технически факултет</title>
+			<contacts>
+				<website href="https://uft-plovdiv.bg/%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82/%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%82%D0%B5%D1%82%D0%B8/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%82%D0%B5%D1%82/">https://uft-plovdiv.bg/%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82/%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%82%D0%B5%D1%82%D0%B8/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%82%D0%B5%D1%82/ </website>
+			</contacts>
+			<address>
+				<city>Пловдив</city>
+				<street>бул. "Марица" 26, блок І</street>
+			</address>
+			<governance>
+				<dean>доц. д-р инж. Таня Титова-Костуркова</dean>
+				<vice_dean>Илияна Матевосян</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>главен експерт – инспектор инж. Христина П. Минчева. Кабинет 127</scientific_department>
+				<students_department> </students_department>
+			</administration>
+			<image src="sofia_university.jpg"/>
+			<disciplines>Основни дисциплини: Компютърен инженерен дизайн; Хранително машиностроене; 
+			Компютърно управление и автоматизация; Компютърни системи и технологии 
+            Топлинна, хладилна и климатична техника</disciplines>
+		</faculty>
+		<faculty>
+			<title>Стопански факултет</title>
+			<contacts>
+				<website href="https://uft-plovdiv.bg/stopanski-fakultet/">https://uft-plovdiv.bg/stopanski-fakultet/</website>
+			</contacts>
+			<address>
+				<city>Пловдив</city>
+				<street>бул. "Марица" 26</street>
+			</address>
+			<governance>
+				<dean>проф. д-р инж. Валентина Алексиева</dean>
+			</governance>
+			<administration>
+				<scientific_department> главен експерт – инспектор инж. Паулина Ст. Бояджиева, кабинет:124а</scientific_department>
+				<students_department>главен експерт – инспектор Снежана Г. Попадийска; кабинет: 129</students_department>
+			</administration>
+			<image src="food_plovdiv_economy.jpg"/>
+			<disciplines>Основни дисциплини: Икономика на хранителната индустрия; Икономика на туристическата индустрия; Туризъм;
+            Хотелиерство и ресторантьорство; Храни, хранене и диететика; Хранене и туризъм; Кетъринг
+            Индустриален бизнес и предприемачество; Индустриален мениджмънт; Food, Gastronomy and Tourism</disciplines>
+		</faculty>
+		<administration>
+			<scientific_department>Ректорат – тел: +359 32 643 005 – email: rector_uft@uft-plovdiv.bg</scientific_department>
+			<secretariat>Деловодство – тел: +359 32 603 712 – email: delovodstvo@uft-plovdiv.bg</secretariat>
+			<management>Счетоводство – тел: +359 32 603 865 – email: fso_uht@uft-plovdiv.bg</management>
+		</administration>
+		<image src="university_of_food_technology_plovdiv.jpg"/>
+		<universityGovernance>
+			<rector>проф. д.н. инж. Галин Йорданов Иванов</rector>
+		</universityGovernance>
+		<degree> Бакалавър и Магистър</degree>
+		<departments>
+			<title>Департамент по езиково обучение, физическо възпитание и спорт</title>
+			<contacts>
+				<website href="https://uft-plovdiv.bg/%D0%B4%D0%B5%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-%D0%B5%D0%B7%D0%B8%D0%BA%D0%BE%D0%B2%D0%BE-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D0%B8%D0%B7%D0%B8/"> https://uft-plovdiv.bg/%D0%B4%D0%B5%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BC%D0%B5%D0%BD%D1%82-%D0%BF%D0%BE-%D0%B5%D0%B7%D0%B8%D0%BA%D0%BE%D0%B2%D0%BE-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D0%B8%D0%B7%D0%B8/</website>
+			</contacts>
+			<address>
+				<city>Пловдив </city>
+				<street>бул."Марица" 26</street>
+			</address>
+		</departments>
+		<dormitory>
+			<contacts>
+				<telephone> +359 32 603 891</telephone>
+				<website href="https://uft-plovdiv.bg/obshtejitiq/">https://uft-plovdiv.bg/obshtejitiq/</website>
+			</contacts>
+		</dormitory>
+	</university>
+	<university region="Varna">
+		<title>&varnaNavalUniversity;</title>
+		<contacts>
+			<telephone>+359 52 379 900</telephone>
+			<email>office@nma.bg</email>
+			<website href="https://www.naval-acad.bg/">https://www.naval-acad.bg</website>
+		</contacts>
+		<address>
+			<city>Варна</city>
+			<street>бул. "Княз Борис I" 77</street>
+		</address>
+		<funding>Държавно</funding>
+		<scholarships>
+			<website href="https://nma.bg/bg/studenti/stipendii">https://nma.bg/bg/studenti/stipendii</website>
+		</scholarships>
+		<faculty>
+			<title>Факултет по корабоплаване</title>
+			<contacts>
+				<telephone>+359 52 607 179</telephone>
+				<email>info@naval-acad.bg</email>
+				<website href="https://nma.bg/bg/fakulteti/koraboplavane">https://nma.bg/bg/fakulteti/koraboplavane</website>
+			</contacts>
+			<address>
+				<city>Варна</city>
+				<street>бул. "Княз Борис I" 77</street>
+			</address>
+			<governance>
+				<dean>проф. д-р Васил Атанасов; тел.+359 52 379 920; dean_ship@nma.bg           </dean>
+				<vice_dean>доц. д-р Иван Иванов; тел.+359 52 379 921;       vice_dean_ship@nma.bg
+            </vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Ръководител научна работа: д-р Николай Георгиев</scientific_department>
+				<students_department>Инспектор "Студенти": Иванка Петкова, тел: +359 52 379 919</students_department>
+			</administration>
+			<image src="naval_academy_sailing_faculty.jpg"/>
+			<disciplines>Основните дисциплини: "Корабоплаване", "Транспорт и логистика", "Морска безопасност", "Навигационни технологии", "Строителство на кораби".</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по морска техника</title>
+			<contacts>
+				<telephone>+359 77 688 923</telephone>
+				<email>info@naval-acad.bg</email>
+				<website href="https://nma.bg/bg/fakulteti/morska-tehnika">https://nma.bg/bg/fakulteti/morska-tehnika</website>
+			</contacts>
+			<address>
+				<city>Варна</city>
+				<street>бул. "Княз Борис I" 77</street>
+			</address>
+			<governance>
+				<dean>проф. д-р Емил Караджов; тел. +359 52 379 922; dean_tech@nma.bg
+            </dean>
+				<vice_dean>доц. д-р Георги Петров; тел. +359 52 379 923;           vice_dean_tech@nma.bg
+            </vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Ръководител научна работа: д-р Ангел Костов</scientific_department>
+				<students_department>Инспектор "Студенти": Нели Георгиева, тел: +359 52 379 922</students_department>
+			</administration>
+			<image src="naval_academy_marine_technology_faculty.jpg"/>
+			<disciplines>Основни дисциплини: "Морска техника", "Корабни енергийни инсталации", "Инженерна механика", "Морски инженеринг".</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет по електронни технологии и комуникации</title>
+			<contacts>
+				<telephone>+359 23 360 984</telephone>
+				<email>info@naval-acad.bg</email>
+				<website href="https://nma.bg/bg/fakulteti/elektronni-tehnologii">https://nma.bg/bg/fakulteti/elektronni-tehnologii</website>
+			</contacts>
+			<address>
+				<city>Варна</city>
+				<street>бул. "Княз Борис I" 77</street>
+			</address>
+			<governance>
+				<dean>проф. д-р Илия Георгиев; тел. +359 52 379 924; dean_electronics@nma.bg
+            </dean>
+				<vice_dean>доц. д-р Теодора Петрова; тел. +359 52 379 925; vice_dean_electronics@nma.bg
+            </vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Ръководител научна работа: д-р Пламен Христов</scientific_department>
+				<students_department>Инспектор "Студенти": Димитър Димитров, тел: +359 52 379 913</students_department>
+			</administration>
+			<image src="nav_electronic_faculty.jpg"/>
+			<disciplines>Основни дисциплини: "Електронни системи", "Комуникационни технологии", "Сигнални системи", "Програмируеми логически контролери".</disciplines>
+		</faculty>
+		<administration>
+			<scientific_department>Ръководител сектор "Бакалаври": Петя Николова</scientific_department>
+			<secretariat>Инспектор: Галина Михайлова</secretariat>
+		</administration>
+		<image src="visshe_voennomorsko_uchilishte_varna.jpg"/>
+		<universityGovernance>
+			<rector>проф. д-р Костадин Събев; тел. +359 52 379 900
+        </rector>
+		</universityGovernance>
+		<degree>Професионален бакалавър; Бакалавър; Магистър; Доктор</degree>
+		<dormitory>
+			<contacts>
+				<telephone>0887 631 800</telephone>
+				<website href="https://nma.bg/bg/studenti/obshtezhitiya">https://nma.bg/bg/studenti/obshtezhitiya</website>
+			</contacts>
+		</dormitory>
+	</university>
+	<university region="Varna">
+		<title>&varnaEconomicUniversity;</title>
+		<contacts>
+			<telephone>+359 52800890</telephone>
+			<email>infocenter@ue-varna.bg</email>
+			<website href="https://ue-varna.bg/">https://ue-varna.bg/</website>
+		</contacts>
+		<address>
+			<city>Варна</city>
+			<street>бул. "Княз Борис I" 77</street>
+		</address>
+		<funding>Държавно</funding>
+		<scholarships>
+			<website href="https://ue-varna.bg/bg/p/7790/obuchenie/stipendii">https://ue-varna.bg/bg/p/7790/obuchenie/stipendii</website>
+		</scholarships>
+		<faculty>
+			<title>Финансово-счетоводен факултет</title>
+			<contacts>
+				<telephone>052 830802</telephone>
+				<email>desimollova@ue-varna.bg</email>
+				<website href="https://ue-varna.bg/bg/p/7749/za-nas/fakulteti-i-katedri/finansovo-schetovoden-fakultet#tab_za-fakulteta">https://ue-varna.bg/bg/p/7749/za-nas/fakulteti-i-katedri/finansovo-schetovoden-fakultet#tab_za-fakulteta</website>
+			</contacts>
+			<address>
+				<city>Варна</city>
+				<street>бул. Княз Борис I №77</street>
+			</address>
+			<governance>
+				<dean>доц. д-р Даниела Георгиева</dean>
+				<vice_dean>доц. д-р Недялко Вълканов</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department> Петя Цокова, Фронт офис</scientific_department>
+				<students_department>Инспектор "Студенти": Виолета Молдованска, Фронт офис</students_department>
+			</administration>
+			<image src="varna_economic_uni_finance_faculty.jpg"/>
+			<disciplines>Основни дисциплини:„Счетоводство и одит“, „Финанси“,
+             „Счетоводство и финанси“, „Счетоводство (с преподаване на английски език)", „Социална сигурност и застраховане“</disciplines>
+		</faculty>
+		<faculty>
+			<title>Стопански факултет</title>
+			<contacts>
+				<telephone>0885 626055</telephone>
+				<email>anna_fokova@ue-varna.bg</email>
+				<website href="https://ue-varna.bg/bg/p/7750/za-nas/fakulteti-i-katedri/stopanski-fakultet">https://ue-varna.bg/bg/p/7750/za-nas/fakulteti-i-katedri/stopanski-fakultet</website>
+			</contacts>
+			<address>
+				<city>Варна</city>
+				<street>бул. "Княз Борис I", Студентска улица</street>
+			</address>
+			<governance>
+				<dean>доц. д-р Денка Златева</dean>
+				<vice_dean>доц. д-р Илиан Минков</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Инспектор учебна дейност: Петя Костадинова</scientific_department>
+			</administration>
+			<image src="varna_economic_uni_economic_faculty.jpg"/>
+			<disciplines>Основни дисциплини:„Икономика и търговия“, „Бизнес икономика“, „Строителен бизнес и предприемачество“, „Недвижими имоти и инвестиции“,
+			„Индустриален бизнес и предприемачество“, „Логистика“, „Business and Management“ (с преподаване на английски език),
+			„Аграрен бизнес“, „Стокознание и митническа дейност“.</disciplines>
+		</faculty>
+		<faculty>
+			<title>Факултет "Информатика"</title>
+			<contacts>
+				<telephone>0885 626055</telephone>
+				<email>d.drumeva@ue-varna.bg</email>
+				<website href="https://ue-varna.bg/bg/p/7756/za-nas/fakulteti-i-katedri/fakultet-informatika">https://ue-varna.bg/bg/p/7756/za-nas/fakulteti-i-katedri/fakultet-informatika</website>
+			</contacts>
+			<address>
+				<city>Варна</city>
+				<street>бул. "Княз Борис I", Студентска улица</street>
+			</address>
+			<governance>
+				<dean>проф. д-р Владимир Сълов</dean>
+				<vice_dean>доц. д-р Янка Александрова</vice_dean>
+			</governance>
+			<administration>
+				<scientific_department>Ана Янакиева,тел: 0886 608460</scientific_department>
+				<students_department>Инспектор "Студенти": Дияна Друмева, Фронт офис, тел: 0885 626055</students_department>
+			</administration>
+			<image src="varna_economics_uni_informatics_faculty.jpg"/>
+			<disciplines>Основни дисциплини: "Информатика и компютърни науки", 
+			"Икономика" (по специалности "Дигитални технологии в бизнеса" и "Бизнес информационни системи").
+			В магистърска степен с интерес се приемат специалностите "Информатика (с преподаване на английски език)",
+		   "Информационен мениджмънт в бизнеса" и "Мобилни и уеб технологии".
+		   докторска програма "Информатика" и в професионално направление "Икономика" – докторски програми "Приложение на изчислителната техника в икономиката",
+		   "Статистика и демография" и "Оптимално управление на икономически системи". </disciplines>
+		</faculty>
+		<administration>
+			<scientific_department>Ръководител сектор "Бакалаври": Ана Янакиева</scientific_department>
+			<secretariat>Инспектор: Дияна Друмева</secretariat>
+		</administration>
+		<image src="varna_economic_university.jpg"/>
+		<universityGovernance>
+			<rector>Евгени Станимиров</rector>
+		</universityGovernance>
+		<degree>Професионален бакалавър; Бакалавър; Магистър; Доктор</degree>
+		<dormitory>
+			<contacts>
+				<telephone> 0887 631 606</telephone>
+				<website href="https://ue-varna.bg/bg/p/7934/obuchenie/obshtezhitia-i-zali-za-hranene">https://ue-varna.bg/bg/p/7934/obuchenie/obshtezhitia-i-zali-za-hranene</website>
+			</contacts>
+		</dormitory>
+	</university>
+</universityCatalog>

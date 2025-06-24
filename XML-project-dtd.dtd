@@ -1,0 +1,93 @@
+<!ELEMENT universityCatalog (region+, university+)>
+
+<!NOTATION JPG SYSTEM "image/jpeg">
+<!ENTITY sofia_university.jpg SYSTEM "sofia_university.jpg" NDATA JPG> 
+<!ENTITY mu_sofia.jpg SYSTEM "mu_sofia.jpg" NDATA JPG>
+<!ENTITY pu.jpg SYSTEM "pu.jpg" NDATA JPG>
+<!ENTITY university_of_food_technology_plovdiv.jpg SYSTEM "university_of_food_technology_plovdiv.jpg" NDATA JPG>
+<!ENTITY american_university.jpg SYSTEM "american_university.jpg" NDATA JPG>
+<!ENTITY swu.jpg SYSTEM "swu.jpg" NDATA JPG>
+<!ENTITY varna_economic_university.jpg SYSTEM "varna_economic_university.jpg" NDATA JPG>
+<!ENTITY visshe_voennomorsko_uchilishte_varna.jpg SYSTEM "visshe_voennomorsko_uchilishte_varna.jpg" NDATA JPG>
+
+<!ENTITY biological_faculty.jpg SYSTEM "biological_faculty.jpg" NDATA JPG>
+<!ENTITY fhf.jpg SYSTEM "fhf.jpg" NDATA JPG>
+<!ENTITY fmi.jpg SYSTEM "fmi.jpg" NDATA JPG>
+<!ENTITY fnoi.jpg SYSTEM "fnoi.jpg" NDATA JPG>
+<!ENTITY geographic_faculty.jpg SYSTEM "geographic_faculty.jpg" NDATA JPG>
+<!ENTITY historical_faculty.jpg SYSTEM "historical_faculty.jpg" NDATA JPG>
+<!ENTITY law_faculty.jpg SYSTEM "law_faculty.jpg" NDATA JPG>
+<!ENTITY medical_faculty.jpg SYSTEM "medical_faculty.jpg" NDATA JPG>
+<!ENTITY pedagogical_faculty.jpg SYSTEM "pedagogical_faculty.jpg" NDATA JPG>
+<!ENTITY philology_faculty.jpg SYSTEM "philology_faculty.jpg" NDATA JPG>
+<!ENTITY slavic_philology_faculty.jpg SYSTEM "slavic_philology_faculty.jpg" NDATA JPG>
+<!ENTITY theological_faculty.jpg SYSTEM "theological_faculty.jpg" NDATA JPG>
+
+<!ENTITY mu-medicine.jpg SYSTEM "mu-medicine.jpg" NDATA JPG>
+<!ENTITY mu-dental-medicine.jpg SYSTEM "mu-dental-medicine.jpg" NDATA JPG>
+<!ENTITY mu-pharmacy.jpg SYSTEM "mu-pharmacy.jpg" NDATA JPG>
+
+<!ENTITY swu_economy.jpg SYSTEM "swu_economy.jpg" NDATA JPG>
+<!ENTITY swu_law_faculty.jpg SYSTEM "swu_law_faculty.jpg" NDATA JPG>
+<!ENTITY swu_philosophy.jpg SYSTEM "swu_philosophy.jpg" NDATA JPG>
+
+<!ENTITY pu-fmi.jpg SYSTEM "pu-fmi.jpg" NDATA JPG>
+<!ENTITY pu-philology.jpg SYSTEM "pu-philology.jpg" NDATA JPG>
+<!ENTITY pu-economy.jpg SYSTEM "pu-economy.jpg" NDATA JPG>
+
+<!ENTITY food_plovdiv_technology.jpg SYSTEM "food_plovdiv_technology.jpg" NDATA JPG>
+<!ENTITY food_plovdiv_technical.jpg SYSTEM "food_plovdiv_technical.jpg" NDATA JPG>
+<!ENTITY food_plovdiv_economy.jpg SYSTEM "food_plovdiv_economy.jpg" NDATA JPG>
+
+<!ENTITY naval_academy_sailing_faculty.jpg SYSTEM "naval_academy_sailing_faculty.jpg" NDATA JPG>
+<!ENTITY naval_academy_marine_technology_faculty.jpg SYSTEM "naval_academy_marine_technology_faculty.jpg" NDATA JPG>
+<!ENTITY nav_electronic_faculty.jpg SYSTEM "nav_electronic_faculty.jpg" NDATA JPG>
+
+<!ENTITY varna_economic_uni_finance_faculty.jpg SYSTEM "varna_economic_uni_finance_faculty.jpg" NDATA JPG>
+<!ENTITY varna_economic_uni_economic_faculty.jpg SYSTEM "varna_economic_uni_economic_faculty.jpg" NDATA JPG>
+<!ENTITY varna_economics_uni_informatics_faculty.jpg SYSTEM "varna_economics_uni_informatics_faculty.jpg" NDATA JPG>
+
+<!NOTATION PNG SYSTEM "image/png">
+<!ENTITY economic_faculty.png SYSTEM "economic_faculty.png" NDATA PNG> 
+<!ENTITY fdhmk.png SYSTEM "fdhmk.png" NDATA PNG>
+
+<!NOTATION JPEG SYSTEM "image/jpeg">
+<!ENTITY fzf.jpeg SYSTEM "fzf.jpeg" NDATA JPEG>
+
+
+<!ELEMENT region (#PCDATA)>
+<!ATTLIST region id ID #REQUIRED>
+<!ELEMENT university (title,contacts,address,funding,scholarships?, affiliate*, faculty*,administration,image,universityGovernance,institutions?,degree,departments*,dormitory?)>
+<!ATTLIST university region IDREF #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>                 
+
+<!ELEMENT contacts (telephone*, email*, website)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT website (#PCDATA)>                     
+<!ATTLIST website href CDATA #REQUIRED>
+<!ELEMENT address (city, street)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT funding (#PCDATA)>
+<!ELEMENT scholarships (website)>
+<!ELEMENT affiliate (title, contacts, address)>
+<!ELEMENT faculty (title, contacts, address, governance, administration,image,disciplines)>
+<!ELEMENT governance (dean, vice_dean*)>
+<!ELEMENT dean (#PCDATA)>
+<!ELEMENT vice_dean (#PCDATA)>
+<!ELEMENT administration (scientific_department, students_department*, secretariat?, management?)>
+<!ELEMENT scientific_department (#PCDATA)>
+<!ELEMENT students_department (#PCDATA)>
+<!ELEMENT secretariat (#PCDATA)>
+<!ELEMENT management (#PCDATA)>
+<!ELEMENT disciplines (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image src ENTITY #IMPLIED>
+<!ELEMENT universityGovernance (rector)>
+<!ELEMENT rector (#PCDATA)>
+<!ELEMENT institutions (#PCDATA)>
+<!ELEMENT degree (#PCDATA)>
+<!ELEMENT departments (title, contacts, address)>
+<!ELEMENT dormitory (contacts)>
